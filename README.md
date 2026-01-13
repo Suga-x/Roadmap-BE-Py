@@ -16,6 +16,10 @@ A collection of backend projects implemented in Python following the [roadmap.sh
     - A simple command-line expense tracker application built with pure Python. Track your expenses with persistent JSON storage.
     - [Roadmap](https://roadmap.sh/projects/expense-tracker)
 
+- [Number Guessing Game CLI](https://github.com/Roadmap-BE-Py/number_guessing_game)
+    - A simple command-line number guessing game built with pure Python. Guess a randomly selected number between 1 and 100 within limited attempts.
+    - [Roadmap](https://roadmap.sh/projects/number-guessing-game)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
