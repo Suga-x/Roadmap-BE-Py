@@ -84,7 +84,7 @@ class ExpenseTracker:
                     if expense_date.month == month and expense_date.year == current_year:
                         filtered_expenses.append(expense)
                 except ValueError:
-                    continue # Skip invalid dates
+                    continue 
             
             total = sum(e['amount'] for e in filtered_expenses)
             month_name = datetime(current_year, month, 1).strftime("%B")
