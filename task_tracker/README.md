@@ -1,7 +1,6 @@
 # Task Tracker CLI
-
-A simple command-line task management application built with pure Python. Track your todo, in-progress, and done tasks with persistent JSON storage. https://roadmap.sh/projects/task-tracker
-
+## **Project URL:** https://roadmap.sh/projects/task-tracker
+A simple command-line task management application built with pure Python. Track your todo, in-progress, and done tasks with persistent JSON storage.
 ## Features
 
 - ✅ **CRUD Operations**: Add, update, delete tasks
