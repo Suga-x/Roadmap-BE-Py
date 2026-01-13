@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Unit Converter{% endblock %}
+
+{% block content %}
+<div class="hero">
+    <h2><i class="fas fa-calculator"></i> Convert Any Unit Easily</h2>
+    <p>Select a conversion type to get started</p>
+</div>
+
+<div class="conversion-types">
+    <div class="card">
+        <div class="card-icon">
+            <i class="fas fa-ruler-combined"></i>
+        </div>
+        <h3>Length Conversion</h3>
+        <p>Convert between millimeter, centimeter, meter, kilometer, inch, foot, yard, and mile.</p>
+        <a href="/length" class="btn">Convert Length</a>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">
+            <i class="fas fa-weight-scale"></i>
+        </div>
+        <h3>Weight Conversion</h3>
+        <p>Convert between milligram, gram, kilogram, ounce, and pound.</p>
+        <a href="/weight" class="btn">Convert Weight</a>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">
+            <i class="fas fa-temperature-half"></i>
+        </div>
+        <h3>Temperature Conversion</h3>
+        <p>Convert between Celsius, Fahrenheit, and Kelvin.</p>
+        <a href="/temperature" class="btn">Convert Temperature</a>
+    </div>
+</div>
+
+<div class="instructions">
+    <h3><i class="fas fa-info-circle"></i> How to Use</h3>
+    <ol>
+        <li>Select the type of conversion from the navigation menu</li>
+        <li>Enter the value you want to convert</li>
+        <li>Select the unit to convert from</li>
+        <li>Select the unit to convert to</li>
+        <li>Click "Convert" to see the result</li>
+    </ol>
+</div>
+{% endblock %}

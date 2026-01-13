@@ -20,6 +20,10 @@ A collection of backend projects implemented in Python following the [roadmap.sh
     - A simple command-line number guessing game built with pure Python. Guess a randomly selected number between 1 and 100 within limited attempts.
     - [Roadmap](https://roadmap.sh/projects/number-guessing-game)
 
+- [Unit Converter Web Application](https://github.com/Roadmap-BE-Py/unit_converter)
+    - A simple and intuitive web application for converting between different units of measurement built with Python FastAPI.
+    - [Roadmap](https://roadmap.sh/projects/unit-converter)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
